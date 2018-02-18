@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F50D0439FFD27AAAADEBF7C44FBEC91 /* PlistClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E39784349DFF3EF7ECDEB8798951F /* PlistClient.swift */; };
+		20B6C65AA4DB463CA64A693F51CB8285 /* Savr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBBCBA8DFEB47934B6BBC867EBCC6F1 /* Savr-dummy.m */; };
+		3623BF5A527287EFE4D88B649A37FD32 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0F17D736FDA78EAF1688736F62100 /* Cache.swift */; };
 		4C3F171972041957B08F467517D6B388 /* Pods-Savr_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85211F73B5C2DF8DCF32CA2E651E1F4B /* Pods-Savr_Tests-dummy.m */; };
-		513553702B222E01EC4EECE36D66AF2C /* Savr-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3B08101FDF79ABEF77E4A94455E44A /* Savr-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		562C08CA21185545E8BD2791EAF15AE7 /* Savr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D59566E1F07F34D039EC379B497BEC2 /* Savr-dummy.m */; };
+		513553702B222E01EC4EECE36D66AF2C /* Savr-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B158619BA54F5200BBCF762295AD2D8 /* Savr-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		699B71DDB9A26766D4BD4BBAA94DB3EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		982B397F32735382D59A51F9FB250CCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9A7AC2C00D98C5131C5CBECE2392E24B /* Pods-Savr_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11299D7EAC6276E4DD3A04C462F3A9A0 /* Pods-Savr_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4A758EF652F19AF7A731328DA68D576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C724522F1B4F692781F603828F267A1E /* Pods-Savr_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F15ABFECDD414514DF35DCBFF643C7 /* Pods-Savr_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA20B8C3083FF139C750075E8C8F43CD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCAC26F2068028575CE690BED6A2730 /* ReplaceMe.swift */; };
 		E59089ECB8D93FBC3FD37A9BBB520CBF /* Pods-Savr_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68172706A4ED87410CABCFECBA51AF28 /* Pods-Savr_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -30,41 +31,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		014B64A95F7B23262AD7FCB6A168283C /* Savr.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Savr.modulemap; sourceTree = "<group>"; };
+		00F105E32631E28ABF6F17D04F998080 /* Savr.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Savr.modulemap; sourceTree = "<group>"; };
 		0B225271E7743E15DF56BD3DE56A416F /* Pods-Savr_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Savr_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0D0813B0DE38560FE694C88341B23CF7 /* Pods_Savr_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Savr_Tests.framework; path = "Pods-Savr_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11299D7EAC6276E4DD3A04C462F3A9A0 /* Pods-Savr_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Savr_Example-umbrella.h"; sourceTree = "<group>"; };
 		13CABD37093C8E9B5DF07E285CFE84A9 /* Pods-Savr_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Savr_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		18C86C9163A160EAD0BBA2B77D23A856 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		20F84D97EE5C710F737FADAAFED4320D /* Savr.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Savr.xcconfig; sourceTree = "<group>"; };
 		2632A668EF488CFE383F28578B7A669E /* Savr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Savr.framework; path = Savr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F15ABFECDD414514DF35DCBFF643C7 /* Pods-Savr_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Savr_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2B6B445AE779EFDABC52CEAFB063ECCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D59566E1F07F34D039EC379B497BEC2 /* Savr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Savr-dummy.m"; sourceTree = "<group>"; };
 		2E2C023B18C5F9578EF2F7AB422304DC /* Pods-Savr_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Savr_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		30B48A90AAA1144C0A5F4D3645489204 /* Pods-Savr_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Savr_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3EBAE95DD577B509A02E09EC82661455 /* Savr.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Savr.xcconfig; sourceTree = "<group>"; };
+		38F2351EF70F59E5BD20EE06772F67DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		44A28E45E0EDCB664E6EC8365B73DF39 /* Savr-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Savr-prefix.pch"; sourceTree = "<group>"; };
 		4F3A37A73920D031A206BDD0C4B04589 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FDE9834A26AE645FE3523E0E185917D /* Pods-Savr_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Savr_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68172706A4ED87410CABCFECBA51AF28 /* Pods-Savr_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Savr_Example-dummy.m"; sourceTree = "<group>"; };
+		6B158619BA54F5200BBCF762295AD2D8 /* Savr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Savr-umbrella.h"; sourceTree = "<group>"; };
 		73D7A419176A3A7A5DF2BDBECADDE764 /* Pods-Savr_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Savr_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		74122C49F1E501978499161FF7275040 /* Pods-Savr_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Savr_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DBBCBA8DFEB47934B6BBC867EBCC6F1 /* Savr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Savr-dummy.m"; sourceTree = "<group>"; };
 		85211F73B5C2DF8DCF32CA2E651E1F4B /* Pods-Savr_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Savr_Tests-dummy.m"; sourceTree = "<group>"; };
+		87A203ED1AA01D0F621F5F9D9773B8BD /* Savr.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Savr.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		89FA2CB978E2539728045FE59FAD0FF6 /* Pods_Savr_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Savr_Example.framework; path = "Pods-Savr_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA91D12414B3B7EB929BE26C5637E0C6 /* Savr-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Savr-prefix.pch"; sourceTree = "<group>"; };
+		A2F0F17D736FDA78EAF1688736F62100 /* Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = Savr/Classes/Cache.swift; sourceTree = "<group>"; };
 		B1BAA51BFB638636DD1D0BFFB8706550 /* Pods-Savr_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Savr_Tests-resources.sh"; sourceTree = "<group>"; };
-		B6D1AA81568E0C18763DC36765E17A54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A7B24234364ADB043BE987B260AAAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B835BBB2D091F92A1497BCF7F61FBF39 /* Pods-Savr_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Savr_Example.modulemap"; sourceTree = "<group>"; };
 		BD574C895A512E9A2F75F97F84001020 /* Pods-Savr_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Savr_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CC3B08101FDF79ABEF77E4A94455E44A /* Savr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Savr-umbrella.h"; sourceTree = "<group>"; };
-		CFCAC26F2068028575CE690BED6A2730 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Savr/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C13E39784349DFF3EF7ECDEB8798951F /* PlistClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlistClient.swift; path = Savr/Classes/PlistClient.swift; sourceTree = "<group>"; };
+		C16F6B37AA19C062B64EA1D086521678 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D27318E903D7DBFDA2B59095A001FC34 /* Pods-Savr_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Savr_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E59AB29DD3E607FD0177CEB63F004FF3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E6DE6DE07FB09C1F5EE33BF292603B71 /* Pods-Savr_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Savr_Tests.modulemap"; sourceTree = "<group>"; };
 		EDD84D508589A397D7DA5A78E0E7E71F /* Pods-Savr_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Savr_Example-resources.sh"; sourceTree = "<group>"; };
 		EE4A5228CA09C3E2F6020F2EE67E24C4 /* Pods-Savr_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Savr_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F0D2A53E841CD94F5940C0351AA1AECB /* Savr.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Savr.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,23 +97,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AF509408E8CEA820DFB6572D465B237 /* Development Pods */ = {
+		243FDC73232131B96B7993EC77389D59 /* Savr */ = {
 			isa = PBXGroup;
 			children = (
-				C0B022421A02DF26CF95FAE80DD29610 /* Savr */,
+				A2F0F17D736FDA78EAF1688736F62100 /* Cache.swift */,
+				C13E39784349DFF3EF7ECDEB8798951F /* PlistClient.swift */,
+				8D159AF02B9249FE7CF8421DA0516590 /* Pod */,
+				AD418905448B2D430FE4BBA6AED3467D /* Support Files */,
 			);
-			name = "Development Pods";
+			name = Savr;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1AF509408E8CEA820DFB6572D465B237 /* Development Pods */,
+				BD906BB84A6B6EED54C43D56E7C19DD4 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				94DAF25A4F592BAE33193029D46FE346 /* Products */,
 				B1D55FE5493ED9ABE56104CA15A545C0 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8D159AF02B9249FE7CF8421DA0516590 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				38F2351EF70F59E5BD20EE06772F67DD /* LICENSE */,
+				B2A7B24234364ADB043BE987B260AAAA /* README.md */,
+				87A203ED1AA01D0F621F5F9D9773B8BD /* Savr.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		94DAF25A4F592BAE33193029D46FE346 /* Products */ = {
@@ -122,6 +138,20 @@
 				2632A668EF488CFE383F28578B7A669E /* Savr.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AD418905448B2D430FE4BBA6AED3467D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C16F6B37AA19C062B64EA1D086521678 /* Info.plist */,
+				00F105E32631E28ABF6F17D04F998080 /* Savr.modulemap */,
+				20F84D97EE5C710F737FADAAFED4320D /* Savr.xcconfig */,
+				7DBBCBA8DFEB47934B6BBC867EBCC6F1 /* Savr-dummy.m */,
+				44A28E45E0EDCB664E6EC8365B73DF39 /* Savr-prefix.pch */,
+				6B158619BA54F5200BBCF762295AD2D8 /* Savr-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Savr";
 			sourceTree = "<group>";
 		};
 		AE56E7ABFC526BC5F7A4073E9D15D476 /* Pods-Savr_Tests */ = {
@@ -159,15 +189,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C0B022421A02DF26CF95FAE80DD29610 /* Savr */ = {
+		BD906BB84A6B6EED54C43D56E7C19DD4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CFCAC26F2068028575CE690BED6A2730 /* ReplaceMe.swift */,
-				EB23E4AC67924B0A4D851E42EDC7EB5A /* Pod */,
-				FD8E096548504E6F1655032C755A55D3 /* Support Files */,
+				243FDC73232131B96B7993EC77389D59 /* Savr */,
 			);
-			name = Savr;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C472DEFCBF5F5AA77A27D155EC0E0E5D /* Pods-Savr_Example */ = {
@@ -194,30 +221,6 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		EB23E4AC67924B0A4D851E42EDC7EB5A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E59AB29DD3E607FD0177CEB63F004FF3 /* LICENSE */,
-				18C86C9163A160EAD0BBA2B77D23A856 /* README.md */,
-				F0D2A53E841CD94F5940C0351AA1AECB /* Savr.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		FD8E096548504E6F1655032C755A55D3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B6D1AA81568E0C18763DC36765E17A54 /* Info.plist */,
-				014B64A95F7B23262AD7FCB6A168283C /* Savr.modulemap */,
-				3EBAE95DD577B509A02E09EC82661455 /* Savr.xcconfig */,
-				2D59566E1F07F34D039EC379B497BEC2 /* Savr-dummy.m */,
-				AA91D12414B3B7EB929BE26C5637E0C6 /* Savr-prefix.pch */,
-				CC3B08101FDF79ABEF77E4A94455E44A /* Savr-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Savr";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A695ACDA1911A0419DCFB43B33DB635 /* Build configuration list for PBXNativeTarget "Savr" */;
 			buildPhases = (
-				A34BA67A0BCA1E291993D1DB574B8C10 /* Sources */,
+				73A7363916BD66DA9C1AC8104766CD3D /* Sources */,
 				61D5732FD2D3953C0E5A0F7B422C8DA9 /* Frameworks */,
 				85E722D861ABD034AC83B19DC2B3ECDD /* Headers */,
 			);
@@ -339,12 +342,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A34BA67A0BCA1E291993D1DB574B8C10 /* Sources */ = {
+		73A7363916BD66DA9C1AC8104766CD3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA20B8C3083FF139C750075E8C8F43CD /* ReplaceMe.swift in Sources */,
-				562C08CA21185545E8BD2791EAF15AE7 /* Savr-dummy.m in Sources */,
+				3623BF5A527287EFE4D88B649A37FD32 /* Cache.swift in Sources */,
+				0F50D0439FFD27AAAADEBF7C44FBEC91 /* PlistClient.swift in Sources */,
+				20B6C65AA4DB463CA64A693F51CB8285 /* Savr-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,7 +589,7 @@
 		};
 		E8E0C63867E756B24444641763FA80E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EBAE95DD577B509A02E09EC82661455 /* Savr.xcconfig */;
+			baseConfigurationReference = 20F84D97EE5C710F737FADAAFED4320D /* Savr.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -616,7 +620,7 @@
 		};
 		EFCAF54DC1857817096F3D1D0DE0E0D1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EBAE95DD577B509A02E09EC82661455 /* Savr.xcconfig */;
+			baseConfigurationReference = 20F84D97EE5C710F737FADAAFED4320D /* Savr.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
