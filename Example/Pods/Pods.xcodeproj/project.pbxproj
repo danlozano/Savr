@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C3F171972041957B08F467517D6B388 /* Pods-Savr_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85211F73B5C2DF8DCF32CA2E651E1F4B /* Pods-Savr_Tests-dummy.m */; };
+		513553702B222E01EC4EECE36D66AF2C /* Savr-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3B08101FDF79ABEF77E4A94455E44A /* Savr-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562C08CA21185545E8BD2791EAF15AE7 /* Savr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D59566E1F07F34D039EC379B497BEC2 /* Savr-dummy.m */; };
+		699B71DDB9A26766D4BD4BBAA94DB3EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		982B397F32735382D59A51F9FB250CCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9A7AC2C00D98C5131C5CBECE2392E24B /* Pods-Savr_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11299D7EAC6276E4DD3A04C462F3A9A0 /* Pods-Savr_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4A758EF652F19AF7A731328DA68D576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C724522F1B4F692781F603828F267A1E /* Pods-Savr_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F15ABFECDD414514DF35DCBFF643C7 /* Pods-Savr_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA20B8C3083FF139C750075E8C8F43CD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCAC26F2068028575CE690BED6A2730 /* ReplaceMe.swift */; };
+		E59089ECB8D93FBC3FD37A9BBB520CBF /* Pods-Savr_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68172706A4ED87410CABCFECBA51AF28 /* Pods-Savr_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		150462663E2B521C5D7126755AB8F661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23D1CD0D5FF224C8C9DA4087B17908DA;
+			remoteInfo = Savr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014B64A95F7B23262AD7FCB6A168283C /* Savr.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Savr.modulemap; sourceTree = "<group>"; };
+		0B225271E7743E15DF56BD3DE56A416F /* Pods-Savr_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Savr_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0D0813B0DE38560FE694C88341B23CF7 /* Pods_Savr_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Savr_Tests.framework; path = "Pods-Savr_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11299D7EAC6276E4DD3A04C462F3A9A0 /* Pods-Savr_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Savr_Example-umbrella.h"; sourceTree = "<group>"; };
+		13CABD37093C8E9B5DF07E285CFE84A9 /* Pods-Savr_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Savr_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		18C86C9163A160EAD0BBA2B77D23A856 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2632A668EF488CFE383F28578B7A669E /* Savr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Savr.framework; path = Savr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F15ABFECDD414514DF35DCBFF643C7 /* Pods-Savr_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Savr_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2B6B445AE779EFDABC52CEAFB063ECCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D59566E1F07F34D039EC379B497BEC2 /* Savr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Savr-dummy.m"; sourceTree = "<group>"; };
+		2E2C023B18C5F9578EF2F7AB422304DC /* Pods-Savr_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Savr_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		30B48A90AAA1144C0A5F4D3645489204 /* Pods-Savr_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Savr_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EBAE95DD577B509A02E09EC82661455 /* Savr.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Savr.xcconfig; sourceTree = "<group>"; };
+		4F3A37A73920D031A206BDD0C4B04589 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FDE9834A26AE645FE3523E0E185917D /* Pods-Savr_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Savr_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68172706A4ED87410CABCFECBA51AF28 /* Pods-Savr_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Savr_Example-dummy.m"; sourceTree = "<group>"; };
+		73D7A419176A3A7A5DF2BDBECADDE764 /* Pods-Savr_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Savr_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		74122C49F1E501978499161FF7275040 /* Pods-Savr_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Savr_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85211F73B5C2DF8DCF32CA2E651E1F4B /* Pods-Savr_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Savr_Tests-dummy.m"; sourceTree = "<group>"; };
+		89FA2CB978E2539728045FE59FAD0FF6 /* Pods_Savr_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Savr_Example.framework; path = "Pods-Savr_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA91D12414B3B7EB929BE26C5637E0C6 /* Savr-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Savr-prefix.pch"; sourceTree = "<group>"; };
+		B1BAA51BFB638636DD1D0BFFB8706550 /* Pods-Savr_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Savr_Tests-resources.sh"; sourceTree = "<group>"; };
+		B6D1AA81568E0C18763DC36765E17A54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B835BBB2D091F92A1497BCF7F61FBF39 /* Pods-Savr_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Savr_Example.modulemap"; sourceTree = "<group>"; };
+		BD574C895A512E9A2F75F97F84001020 /* Pods-Savr_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Savr_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CC3B08101FDF79ABEF77E4A94455E44A /* Savr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Savr-umbrella.h"; sourceTree = "<group>"; };
+		CFCAC26F2068028575CE690BED6A2730 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Savr/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D27318E903D7DBFDA2B59095A001FC34 /* Pods-Savr_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Savr_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E59AB29DD3E607FD0177CEB63F004FF3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E6DE6DE07FB09C1F5EE33BF292603B71 /* Pods-Savr_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Savr_Tests.modulemap"; sourceTree = "<group>"; };
+		EDD84D508589A397D7DA5A78E0E7E71F /* Pods-Savr_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Savr_Example-resources.sh"; sourceTree = "<group>"; };
+		EE4A5228CA09C3E2F6020F2EE67E24C4 /* Pods-Savr_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Savr_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F0D2A53E841CD94F5940C0351AA1AECB /* Savr.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Savr.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61D5732FD2D3953C0E5A0F7B422C8DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982B397F32735382D59A51F9FB250CCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B19386E6F0D3C84D15962197575B356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699B71DDB9A26766D4BD4BBAA94DB3EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BEB64DABDCE0F200F00EFA61E29324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A758EF652F19AF7A731328DA68D576 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AF509408E8CEA820DFB6572D465B237 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0B022421A02DF26CF95FAE80DD29610 /* Savr */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1AF509408E8CEA820DFB6572D465B237 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				94DAF25A4F592BAE33193029D46FE346 /* Products */,
+				B1D55FE5493ED9ABE56104CA15A545C0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94DAF25A4F592BAE33193029D46FE346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89FA2CB978E2539728045FE59FAD0FF6 /* Pods_Savr_Example.framework */,
+				0D0813B0DE38560FE694C88341B23CF7 /* Pods_Savr_Tests.framework */,
+				2632A668EF488CFE383F28578B7A669E /* Savr.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE56E7ABFC526BC5F7A4073E9D15D476 /* Pods-Savr_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4F3A37A73920D031A206BDD0C4B04589 /* Info.plist */,
+				E6DE6DE07FB09C1F5EE33BF292603B71 /* Pods-Savr_Tests.modulemap */,
+				4FDE9834A26AE645FE3523E0E185917D /* Pods-Savr_Tests-acknowledgements.markdown */,
+				13CABD37093C8E9B5DF07E285CFE84A9 /* Pods-Savr_Tests-acknowledgements.plist */,
+				85211F73B5C2DF8DCF32CA2E651E1F4B /* Pods-Savr_Tests-dummy.m */,
+				73D7A419176A3A7A5DF2BDBECADDE764 /* Pods-Savr_Tests-frameworks.sh */,
+				B1BAA51BFB638636DD1D0BFFB8706550 /* Pods-Savr_Tests-resources.sh */,
+				26F15ABFECDD414514DF35DCBFF643C7 /* Pods-Savr_Tests-umbrella.h */,
+				2E2C023B18C5F9578EF2F7AB422304DC /* Pods-Savr_Tests.debug.xcconfig */,
+				0B225271E7743E15DF56BD3DE56A416F /* Pods-Savr_Tests.release.xcconfig */,
+			);
+			name = "Pods-Savr_Tests";
+			path = "Target Support Files/Pods-Savr_Tests";
+			sourceTree = "<group>";
+		};
+		B1D55FE5493ED9ABE56104CA15A545C0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C472DEFCBF5F5AA77A27D155EC0E0E5D /* Pods-Savr_Example */,
+				AE56E7ABFC526BC5F7A4073E9D15D476 /* Pods-Savr_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0B022421A02DF26CF95FAE80DD29610 /* Savr */ = {
+			isa = PBXGroup;
+			children = (
+				CFCAC26F2068028575CE690BED6A2730 /* ReplaceMe.swift */,
+				EB23E4AC67924B0A4D851E42EDC7EB5A /* Pod */,
+				FD8E096548504E6F1655032C755A55D3 /* Support Files */,
+			);
+			name = Savr;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C472DEFCBF5F5AA77A27D155EC0E0E5D /* Pods-Savr_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2B6B445AE779EFDABC52CEAFB063ECCD /* Info.plist */,
+				B835BBB2D091F92A1497BCF7F61FBF39 /* Pods-Savr_Example.modulemap */,
+				74122C49F1E501978499161FF7275040 /* Pods-Savr_Example-acknowledgements.markdown */,
+				30B48A90AAA1144C0A5F4D3645489204 /* Pods-Savr_Example-acknowledgements.plist */,
+				68172706A4ED87410CABCFECBA51AF28 /* Pods-Savr_Example-dummy.m */,
+				BD574C895A512E9A2F75F97F84001020 /* Pods-Savr_Example-frameworks.sh */,
+				EDD84D508589A397D7DA5A78E0E7E71F /* Pods-Savr_Example-resources.sh */,
+				11299D7EAC6276E4DD3A04C462F3A9A0 /* Pods-Savr_Example-umbrella.h */,
+				EE4A5228CA09C3E2F6020F2EE67E24C4 /* Pods-Savr_Example.debug.xcconfig */,
+				D27318E903D7DBFDA2B59095A001FC34 /* Pods-Savr_Example.release.xcconfig */,
+			);
+			name = "Pods-Savr_Example";
+			path = "Target Support Files/Pods-Savr_Example";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EB23E4AC67924B0A4D851E42EDC7EB5A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E59AB29DD3E607FD0177CEB63F004FF3 /* LICENSE */,
+				18C86C9163A160EAD0BBA2B77D23A856 /* README.md */,
+				F0D2A53E841CD94F5940C0351AA1AECB /* Savr.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FD8E096548504E6F1655032C755A55D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6D1AA81568E0C18763DC36765E17A54 /* Info.plist */,
+				014B64A95F7B23262AD7FCB6A168283C /* Savr.modulemap */,
+				3EBAE95DD577B509A02E09EC82661455 /* Savr.xcconfig */,
+				2D59566E1F07F34D039EC379B497BEC2 /* Savr-dummy.m */,
+				AA91D12414B3B7EB929BE26C5637E0C6 /* Savr-prefix.pch */,
+				CC3B08101FDF79ABEF77E4A94455E44A /* Savr-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Savr";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		666238225F9589EEFEF84D3AB88656C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C724522F1B4F692781F603828F267A1E /* Pods-Savr_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E722D861ABD034AC83B19DC2B3ECDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513553702B222E01EC4EECE36D66AF2C /* Savr-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9611DC736EE1B20B14B0CEF987F72C97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7AC2C00D98C5131C5CBECE2392E24B /* Pods-Savr_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AA7E1BAE18B220E3811A7B69EDFA0F7 /* Pods-Savr_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548F02F56DA7BFADB6B14F921121DC41 /* Build configuration list for PBXNativeTarget "Pods-Savr_Tests" */;
+			buildPhases = (
+				6F415A4DB54E95967AE282DDEF475FE1 /* Sources */,
+				E3BEB64DABDCE0F200F00EFA61E29324 /* Frameworks */,
+				666238225F9589EEFEF84D3AB88656C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Savr_Tests";
+			productName = "Pods-Savr_Tests";
+			productReference = 0D0813B0DE38560FE694C88341B23CF7 /* Pods_Savr_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23D1CD0D5FF224C8C9DA4087B17908DA /* Savr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A695ACDA1911A0419DCFB43B33DB635 /* Build configuration list for PBXNativeTarget "Savr" */;
+			buildPhases = (
+				A34BA67A0BCA1E291993D1DB574B8C10 /* Sources */,
+				61D5732FD2D3953C0E5A0F7B422C8DA9 /* Frameworks */,
+				85E722D861ABD034AC83B19DC2B3ECDD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Savr;
+			productName = Savr;
+			productReference = 2632A668EF488CFE383F28578B7A669E /* Savr.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		53DF4AD585D7D3BF32481753D0C10E95 /* Pods-Savr_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BC8CBC799C786258BD4193EAAB522A /* Build configuration list for PBXNativeTarget "Pods-Savr_Example" */;
+			buildPhases = (
+				DEBFEFA71189DFC6E2F592D10DABC6B4 /* Sources */,
+				7B19386E6F0D3C84D15962197575B356 /* Frameworks */,
+				9611DC736EE1B20B14B0CEF987F72C97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B3EA8362FD0E991EAD93020789AD7D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Savr_Example";
+			productName = "Pods-Savr_Example";
+			productReference = 89FA2CB978E2539728045FE59FAD0FF6 /* Pods_Savr_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 94DAF25A4F592BAE33193029D46FE346 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53DF4AD585D7D3BF32481753D0C10E95 /* Pods-Savr_Example */,
+				1AA7E1BAE18B220E3811A7B69EDFA0F7 /* Pods-Savr_Tests */,
+				23D1CD0D5FF224C8C9DA4087B17908DA /* Savr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F415A4DB54E95967AE282DDEF475FE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3F171972041957B08F467517D6B388 /* Pods-Savr_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34BA67A0BCA1E291993D1DB574B8C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA20B8C3083FF139C750075E8C8F43CD /* ReplaceMe.swift in Sources */,
+				562C08CA21185545E8BD2791EAF15AE7 /* Savr-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBFEFA71189DFC6E2F592D10DABC6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59089ECB8D93FBC3FD37A9BBB520CBF /* Pods-Savr_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B3EA8362FD0E991EAD93020789AD7D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Savr;
+			target = 23D1CD0D5FF224C8C9DA4087B17908DA /* Savr */;
+			targetProxy = 150462663E2B521C5D7126755AB8F661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27690996F23AEC6B1E3711031E143BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4A5228CA09C3E2F6020F2EE67E24C4 /* Pods-Savr_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Savr_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Savr_Example/Pods-Savr_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Savr_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B154AD10565947D33BFF977083975698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27318E903D7DBFDA2B59095A001FC34 /* Pods-Savr_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Savr_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Savr_Example/Pods-Savr_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Savr_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9893DF9BE1E70858F5B2CA63A1FC110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E2C023B18C5F9578EF2F7AB422304DC /* Pods-Savr_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Savr_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Savr_Tests/Pods-Savr_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Savr_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8E0C63867E756B24444641763FA80E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EBAE95DD577B509A02E09EC82661455 /* Savr.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Savr/Savr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Savr/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Savr/Savr.modulemap";
+				PRODUCT_NAME = Savr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFCAF54DC1857817096F3D1D0DE0E0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EBAE95DD577B509A02E09EC82661455 /* Savr.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Savr/Savr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Savr/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Savr/Savr.modulemap";
+				PRODUCT_NAME = Savr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F94CD01134CE1DBBC520FA6E5F7B1375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B225271E7743E15DF56BD3DE56A416F /* Pods-Savr_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Savr_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Savr_Tests/Pods-Savr_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Savr_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03BC8CBC799C786258BD4193EAAB522A /* Build configuration list for PBXNativeTarget "Pods-Savr_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27690996F23AEC6B1E3711031E143BBE /* Debug */,
+				B154AD10565947D33BFF977083975698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A695ACDA1911A0419DCFB43B33DB635 /* Build configuration list for PBXNativeTarget "Savr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E0C63867E756B24444641763FA80E7 /* Debug */,
+				EFCAF54DC1857817096F3D1D0DE0E0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		548F02F56DA7BFADB6B14F921121DC41 /* Build configuration list for PBXNativeTarget "Pods-Savr_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9893DF9BE1E70858F5B2CA63A1FC110 /* Debug */,
+				F94CD01134CE1DBBC520FA6E5F7B1375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Savr {
+  umbrella header "Savr-umbrella.h"
+
+  export *
+  module * { export * }
+}

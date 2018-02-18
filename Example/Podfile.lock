@@ -1,0 +1,16 @@
+PODS:
+  - Savr (0.1.0)
+
+DEPENDENCIES:
+  - Savr (from `../`)
+
+EXTERNAL SOURCES:
+  Savr:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Savr: a6ca41e8c29e475c90c46e711c4b23258f923e5e
+
+PODFILE CHECKSUM: 9dd5bfb31f2cfeda03890b712ff98fd6eb26e5b3
+
+COCOAPODS: 1.4.0
